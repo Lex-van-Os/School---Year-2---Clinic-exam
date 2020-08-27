@@ -1,0 +1,111 @@
+body {
+  max-width: 800px;
+  margin: auto;
+}
+body .wrap {
+  text-align: center;
+}
+body .wrap nav {
+  margin: 5%;
+}
+body .wrap nav a:hover {
+  background-color: red;
+}
+body .wrap nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 7%;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+}
+body header img {
+  margin: auto;
+  width: 200px;
+  height: auto;
+}
+body header h1 {
+  font-size: 25px;
+}
+body main h2 {
+  left: 400px;
+}
+body main .flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+body main .flex article {
+  width: 100%;
+  border: 4px solid black;
+}
+body main .flex article p {
+  padding-bottom: 40px;
+}
+body main .flex aside {
+  padding-right: 4%;
+}
+body main .flex aside img {
+  width: 350px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 420px) {
+  body {
+    max-width: 800px;
+    margin: auto;
+  }
+  body .wrap {
+    text-align: center;
+  }
+  body .wrap nav {
+    margin: 5%;
+  }
+  body .wrap nav a:hover {
+    background-color: red;
+  }
+  body .wrap nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 7%;
+  }
+  body header {
+    display: flex;
+    flex-direction: column;
+  }
+  body header img {
+    margin: auto;
+    width: 200px;
+    height: auto;
+  }
+  body header h1 {
+    font-size: 25px;
+  }
+  body main h2 {
+    left: 400px;
+  }
+  body main .flex {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .flex article {
+    margin-bottom: 3%;
+    width: 90%;
+    border: 4px solid black;
+  }
+  body main .flex article p {
+    padding-bottom: 40px;
+  }
+  body main .flex aside {
+    padding-right: 4%;
+  }
+  body main .flex aside img {
+    width: 350px;
+    height: 500px;
+  }
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
